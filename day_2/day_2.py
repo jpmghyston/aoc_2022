@@ -47,7 +47,6 @@ def score_part1(play):
 
 def score_part2(play):
     if play[1] == P2_LOSS:
-        qq = losses
         return score_part1(get_play_based_on_outcome(play, losses))
     elif play[1] == P2_DRAW:
         return score_part1(get_play_based_on_outcome(play, draws))
