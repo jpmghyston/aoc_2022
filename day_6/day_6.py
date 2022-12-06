@@ -3,6 +3,7 @@ def get_input():
     with open("day6_input.txt") as f:
         return f.read().strip()
 
+
 def part_1():
     datastream = get_input()
     for i in range(4, len(datastream)):
